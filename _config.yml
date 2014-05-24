@@ -1,5 +1,6 @@
 markdown: kramdown
 highlighter: pygments
+pygments:    true
 
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile
