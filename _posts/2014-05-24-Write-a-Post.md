@@ -10,7 +10,9 @@ summary: Blogging has never been so easy!
 comments: true
 ---
 
-### Testing Markdown / blog
+__View the [source](https://raw.githubusercontent.com/WebDevBootcamp/WebDevBootcamp.github.io/master/_posts/2014-05-24-Write-a-Post.md) luke.__
+
+____
 
 This should be in paragraph form
 
@@ -24,10 +26,7 @@ This should be in paragraph form
 
 [A link to google](http://google.com) and the ability to **Bold** text and __underline__
 
-Trying a code block
-
-
-Alternative syntax
+a code block:
 
 {% highlight javascript %}
 
