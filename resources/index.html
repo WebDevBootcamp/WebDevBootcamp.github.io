@@ -1,0 +1,15 @@
+---
+layout: resources
+title: Resources
+---
+
+{% for type in site.data.resources %}
+  <div class="list-group col-lg-4">
+    <a href="#" class="list-group-item active">
+     {{ type.type }}
+    </a>
+    {% for resource in type.links %}
+      <a href="{{ resource.url }}" class="list-group-item">{{ resource.name }}</a>
+    {% endfor %}
+  </div>
+{% endfor %}

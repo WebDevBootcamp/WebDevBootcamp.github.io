@@ -1,0 +1,26 @@
+- type: Javascript
+  links:
+    - name: MDN - Javascript
+      url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- type: UI/UX
+  links:
+    - name: Web Field Manual
+      url: http://webfieldmanual.com/
+- type: CSS
+  links:
+    - name: MDN - CSS
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS
+    - name: CSS Zen Garden
+      url: http://www.csszengarden.com/
+- type: References
+  links:
+    - name: Web Field Manual
+      url: http://webfieldmanual.com/
+- type: Tools
+  links:
+    - name: MDN - CSS
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS
+- type: Mobile
+  links:
+    - name: iOS Resolution Quick Reference
+      url: http://www.iosres.com/
