@@ -128,24 +128,61 @@ body {
 
 .services {
   background: #7fbbda;
-  padding: 50px 0;
   color: #ffffff;
+  padding: 10px 0;
+  margin-bottom: 24px;
+}
+
+.services h4 {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.services.extended {
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+
+.services.extended h4 {
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .service-item {
   margin-bottom: 15px;
 }
 
+.services a {
+  color: #fff;
+}
+
+.services a:hover {
+  color: navy;
+}
+
+.services a:hover i.service-icon {
+  border-color: navy;
+}
+
+
 i.service-icon {
-  border: 3px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.extended i.service-icon {
+  border: 3px solid #ffffff;
   font-size: 56px;
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
 }
 
 /* Callout */
@@ -202,6 +239,12 @@ i.service-icon {
 
 footer {
   padding: 100px 0;
+  background: #dedede;
+  border-top: 1px solid #999;
+}
+
+footer.content {
+  margin-top: 50px;
 }
 
 .top-scroll {
