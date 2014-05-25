@@ -1,0 +1,41 @@
+---
+layout: default
+title: Tags
+---
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+<h3>Tags</h3>
+<hr />
+{% for tag in sortedtags %}
+  <a href="#{{ tag }}" class="btn btn-default btn-sm">{{ tag }}</a>
+{% endfor %}
+<hr />
+
+{% for tag in sortedtags %}
+  <a id="{{ tag }}"></a>
+  <h4 class="pull-left">{{ tag }}</h4>
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Tags</th>
+    </thead>
+    <tbody>
+  {% for post in site.tags[tag] %}
+      <tr>
+        <td>{{ post.date | date_to_string}}</td>
+        <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+        <td>{{ post.author }}</td>
+        <td>{{ post.tags | array_to_sentence_string }}</td>
+      </tr>
+  {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}

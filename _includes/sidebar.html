@@ -18,3 +18,12 @@
           </div>
       </div>
   </div>
+  
+  {% if page.tags %}
+    <div class="list-group">
+      <a href="#" class="list-group-item active">Tags</a>
+      {% for tag in page.tags %}
+        <a href="{{ site.url }}/tags/#{{ tag }}" class="list-group-item">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Categories
+
+---
+<h3>Categories</h3>
+<hr />
+{% for category in site.categories %}
+  <a href="#{{ category | first }}" class="btn btn-default btn-sm">{{ category | first }}</a>
+{% endfor %}
+<hr />
+
+
+{% for category in site.categories %}
+  <a id="{{ category | first }}"></a>
+  <h4 class="pull-left">{{ category | first }}</h4>
+
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Tags</th>
+    </thead>
+    <tbody>
+
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.url %}
+          <tr>
+            <td>{{ post.date | date_to_string}}</td>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+            <td>{{ post.author }}</td>
+            <td>{{ post.tags | array_to_sentence_string }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}

@@ -10,9 +10,6 @@ comments: true
 userid: nw 
 ---
 
-<pre>{{ site.categories.nw }}</pre>
-
-
 This should be in paragraph form
 
 * This should
