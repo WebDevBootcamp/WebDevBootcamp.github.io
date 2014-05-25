@@ -1,19 +1,20 @@
   <!-- /well -->
+
   <div class="well">
-      <h4>Popular Blog Categories</h4>
+      <h4>{% if page.userid %}Other Posts{% else %}Recent Posts{% endif %}</h4>
       <div class="row">
           <div class="col-lg-12">
               <ul class="list-unstyled">
-                {% for category in site.categories %}
-                  <li><a href="#{{ category | first }}">{{ category | first }}</a></li>
+                {% for post in site.posts %}
+                  {% if page.userid %}
+                    {% if post.userid == page.userid %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                  {% else %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endif %}
                 {% endfor %}
               </ul>
           </div>
       </div>
   </div>
-  <!-- /well -->
-  <div class="well">
-      <h4>Side Widget Well</h4>
-      <p>Bootstrap's default wells work great for side widgets! What is a widget anyways...?</p>
-  </div>
-  <!-- /well -->
