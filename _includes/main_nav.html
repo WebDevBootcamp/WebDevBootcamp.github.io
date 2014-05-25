@@ -1,31 +1,31 @@
-    <div id="services" class="services">
+    <div id="services" class="services {% if include.extended %}extended{% endif %}">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>About WebLab Bootcamp</h2>
-                    <hr>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-2 col-md-offset-2 text-center">
                     <div class="service-item">
-                        <i class="service-icon fa fa-rocket"></i>
+                        <a href="/"><i class="service-icon fa fa-rocket"></i></a>
                         <h4>Course Overview</h4>
+                        {% if include.extended %}
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="col-md-2 text-center">
                     <div class="service-item">
-                        <i class="service-icon fa fa-pencil"></i>
+                        <a href="#"><i class="service-icon fa fa-pencil"></i></a>
                         <h4>Course Curriculum</h4>
+                        {% if include.extended %}
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="col-md-2 text-center">
                     <div class="service-item">
-                        <i class="service-icon fa fa-paperclip"></i>
+                        <a href="/resources"><i class="service-icon fa fa-paperclip"></i></a>
                         <h4>Web Resources</h4>
+                        {% if include.extended %}
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        {% endif %}
                     </div>
                 </div>
                 <!--
@@ -39,9 +39,11 @@
                 -->
                 <div class="col-md-2 text-center">
                     <div class="service-item">
-                        <i class="service-icon fa fa-users"></i>
+                        <a href="#"><i class="service-icon fa fa-users"></i></a>
                         <h4>The Students</h4>
+                        {% if include.extended %}
                         <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
