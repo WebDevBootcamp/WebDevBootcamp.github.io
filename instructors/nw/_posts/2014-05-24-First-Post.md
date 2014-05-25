@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Test Post
+title: First Post
 author: Nathan White
-category: Coding
-tags: test 
+tags: test nw
 published: true
 summary: A quick test
 image: http://placehold.it/900x300
+comments: true
 ---
 
 This should be in paragraph form
