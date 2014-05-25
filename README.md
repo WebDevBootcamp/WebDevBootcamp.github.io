@@ -59,10 +59,10 @@ Each post should have meta data associated with it. See the Metadata section.
 * __image__: url to an image to show above your content (optional)
 * __comments__: true (optional)
 
-** Example: **
+__Example:__
 
 ```yml
-
+    ---
     layout: post
     title: How-to Write a Post
     author: Nathan White
@@ -72,5 +72,5 @@ Each post should have meta data associated with it. See the Metadata section.
     summary: A quick test
     image: http://placehold.it/900x300
     comments: true
-
+    ---
 ```
