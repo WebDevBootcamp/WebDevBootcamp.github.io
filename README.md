@@ -58,6 +58,7 @@ Each post should have meta data associated with it. See the Metadata section.
 * __summary__: A brief description (optional)
 * __image__: url to an image to show above your content (optional)
 * __comments__: true (optional)
+* __userid__: for grouping posts
 
 __Example:__
 
@@ -72,5 +73,6 @@ __Example:__
     summary: A quick test
     image: http://placehold.it/900x300
     comments: true
+    userid: nw
     ---
 ```
