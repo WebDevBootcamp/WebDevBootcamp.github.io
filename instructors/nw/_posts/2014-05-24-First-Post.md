@@ -2,12 +2,16 @@
 layout: post
 title: First Post
 author: Nathan White
-tags: test nw
+tags: test
 published: true
 summary: A quick test
 image: http://placehold.it/900x300
 comments: true
+userid: nw 
 ---
+
+<pre>{{ site.categories.nw }}</pre>
+
 
 This should be in paragraph form
 
