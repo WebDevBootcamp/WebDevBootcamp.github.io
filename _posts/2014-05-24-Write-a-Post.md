@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Test Post
+title: How-to Write a Post
 author: Nathan White
-category: Coding
-tags: blog test
+authorLink: /instructors/nw
+category: howto
+tags: howto
 published: true
-summary: A quick test
-image: http://placehold.it/900x300
+summary: Blogging has never been so easy!
+comments: true
 ---
 
 ### Testing Markdown / blog
