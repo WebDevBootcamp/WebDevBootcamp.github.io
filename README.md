@@ -57,6 +57,7 @@ Each post should have meta data associated with it. See the Metadata section.
 * __published__: set to true if you want it visible
 * __summary__: A brief description (optional)
 * __image__: url to an image to show above your content (optional)
+* __comments__: true (optional)
 
 ** Example: **
 
@@ -70,5 +71,6 @@ Each post should have meta data associated with it. See the Metadata section.
     published: true
     summary: A quick test
     image: http://placehold.it/900x300
+    comments: true
 
 ```
