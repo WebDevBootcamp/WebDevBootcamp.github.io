@@ -79,3 +79,24 @@
   state: CO
   postal: 80526
   resume: http://grade-vi.com/resume/jeffery_w_gilbert_resume.html
+
+- userid: spencer1230
+  student: true
+  session: spring2014
+  name: Spencer Winter
+  github: spencer1230
+  email: spencer1230@gmail.com
+  city: Fort Collins
+  state: CO
+  postal: 80524
+
+- userid: jmawla
+  student: true
+  session: spring2014
+  name: Jamal Abdelmawla
+  github: jmawla
+  email: jmawla@yahoo.com
+  city: Longmont
+  state: CO
+  postal: 80503
+
