@@ -1,0 +1,69 @@
+- userid: nw
+  instructor: true
+  name: Nathan White
+  github: nw
+  twitter: _nw_
+  email: _@nw.is
+  phone: 415-608-0536
+  city: Fort Collins
+  state: CO
+  postal: 80521
+
+- userid: mdaehnick
+  student: true
+  session: spring2014
+  name: Mike Daehnick
+  github: mdaehnick
+  linkedin: mdaehnick
+  email: mdaehnick@yahoo.com
+  phone: 303-666-6468
+  city: Erie
+  state: CO
+  postal: 80516
+  resume: https://asset1.basecamp.com/2565496/projects/5204169/attachments/89210867/DaehnickMichael2014DG.docx
+
+- userid: etmoore
+  student: true
+  session: spring2014
+  name: Evan Moore
+  github: etmoore
+  linkedin: etmoore1
+  email: etmoore@gmail.com
+  city: Loveland
+  state: CO
+  postal: 80537
+
+- userid: jcyoder
+  student: true
+  session: spring2014
+  name: Janet Yoder
+  github: jcyoder
+  linkedin: janetyoder
+  email: kajcyoder@comcast.net
+  city: Greeley
+  state: CO
+  postal: 80634
+
+- userid: stratcom
+  student: true
+  session: spring2014
+  name: Mike Stratton
+  github: stratcom
+  linkedin: mhstratton
+  twitter: mhstratton
+  email: mhstratton@gmail.com
+  city: Boulder
+  state: CO
+  postal: 80304
+
+- userid: RikJohnson
+  student: true
+  session: spring2014
+  name: Rik Johnson
+  github: RikJohnson
+  linkedin: rikrjohnson
+  twitter: RikRJohnson
+  email: rikRjohnson@comcast.net
+  city: Fort Collins
+  state: CO
+  postal: 80525
