@@ -68,10 +68,11 @@
   state: CO
   postal: 80525
   
-  - userid: jwgilbert
+- userid: jwgilbert
   student: true
   session: spring2014
   name: Jeff Gilbert
+  github: jwgilbert
   linkedin: jeffwgilbert
   email: jwgwebdev@gmail.com
   city: Fort Collins
