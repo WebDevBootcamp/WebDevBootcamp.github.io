@@ -67,3 +67,14 @@
   city: Fort Collins
   state: CO
   postal: 80525
+  
+  - userid: jwgilbert
+  student: true
+  session: spring2014
+  name: Jeff Gilbert
+  linkedin: jeffwgilbert
+  email: jwgwebdev@gmail.com
+  city: Fort Collins
+  state: CO
+  postal: 80526
+  resume: http://grade-vi.com/resume/jeffery_w_gilbert_resume.html
