@@ -2,6 +2,16 @@
   links:
     - name: MDN - Javascript
       url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+    - name: Codecademy - Javascript Tutorial
+      url: http://www.codecademy.com/tracks/javascript
+    - name: Khan Academy - Computer Programming Course
+      url: https://www.khanacademy.org/computing/cs
+    - name: Eloquent Javascript (free ebook)
+      url: http://eloquentjavascript.net/
+    - name: Codecademy jQuery
+      url: http://www.codecademy.com/tracks/jquery
+    - name: Try jQuery
+      url: https://www.codeschool.com/courses/try-jquery
 - type: UI/UX
   links:
     - name: Web Field Manual
@@ -12,15 +22,25 @@
       url: https://developer.mozilla.org/en-US/docs/Web/CSS
     - name: CSS Zen Garden
       url: http://www.csszengarden.com/
+    - name: Boostrap
+      url: http://getbootstrap.com/
 - type: References
   links:
     - name: Web Field Manual
       url: http://webfieldmanual.com/
+    - name: jQuery API
+      url: http://api.jquery.com/
+    - name: Stack Overflow
+      url: http://stackoverflow.com/
 - type: Tools
   links:
-    - name: MDN - CSS
-      url: https://developer.mozilla.org/en-US/docs/Web/CSS
+    - name: Modernizr
+      url: http://modernizr.com/
 - type: Mobile
   links:
     - name: iOS Resolution Quick Reference
       url: http://www.iosres.com/
+- type: Web Development
+  links:
+    - name: The Odin Project - Free Web Development Curriculum
+      url: http://www.theodinproject.com/
