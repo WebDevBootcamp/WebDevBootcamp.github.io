@@ -3,6 +3,8 @@ layout: default
 title: Nathan's Page
 image: http://pics2.ds-static.com/prodimg/72645/300.JPG
 userid: nw
+twitter: _nw_
+twitterWidget: 470711378521509889
 ---
 
 {% for p in site.pages %}
@@ -16,3 +18,5 @@ userid: nw
 ### Holding Page
 
 I'll come back around and add content to this later
+
+

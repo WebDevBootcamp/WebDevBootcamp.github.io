@@ -27,3 +27,30 @@
       {% endfor %}
     </div>
   {% endif %}
+  
+  {% if page.githubdisabled %}
+  
+  <div id="github-info"></div>
+  
+  <link href="{{ site.url }}/public/css/github.min.css" rel="stylesheet">
+  <script src="{{ site.url }}/public/js/jquery.github.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $("#github-info").github({
+              user: "{{ page.github }}"
+            , show_extended_info: false
+            , show_repos: 5
+            , width: '100%'
+          });
+      });
+  </script>
+  
+  {% endif %}
+  
+  {% if page.twitterWidget %}
+  
+    <a class="twitter-timeline" href="https://twitter.com/{{ page.twitter }}" data-widget-id="{{ page.twitterWidget }}">Tweets by @{{ page.twitter }}</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  
+  {% endif %}
