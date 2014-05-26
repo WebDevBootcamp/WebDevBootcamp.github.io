@@ -1,0 +1,38 @@
+---
+layout: default
+title: Students
+---
+
+
+<h4> Students </h4>
+
+<table class="table table-bordered table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Page</th>
+      <th>Posts</th>
+      <th>Name</th>
+      <th>Github</th>
+      <th>Twitter</th>
+      <th>Linkedin</th>
+      <th>Employed</th>
+      <th>Resume</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in site.data.users %}
+      {% if user.student %}
+        <tr>
+          <td><a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a></td>
+          <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
+          <td>{{ user.name }}</td>
+          <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
+          <td>{% if user.twitter %}<a href="http://twitter.com/{{ user.twitter }}">{{ user.twitter }}{% endif %}</a></td>
+          <td>{% if user.linkedin %}<a href="http://linkedin.com/in/{{ user.linkedin }}">{{ user.linkedin }}{% endif %}</a></td>
+          <td align="center"><i class="icon fa {% if user.employed %}fa-check{% else %}fa-exclamation{% endif %}" /></td>
+          <td align="center">{% if user.resume %}<a href="{{ user.resume }}"><i class="icon fa fa-file-text-o" /></a>{% endif %}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
