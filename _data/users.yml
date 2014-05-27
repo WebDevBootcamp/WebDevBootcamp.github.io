@@ -101,7 +101,7 @@
   state: CO
   postal: 80503
   
-  - userid: zee
+- userid: w4zeepi0
   student: true
   session: spring2014
   name: Zee LaFon
@@ -109,5 +109,4 @@
   email: zeelafon@msn.com
   city: Lafayette
   state: CO
-  postal:
 
