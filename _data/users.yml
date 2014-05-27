@@ -100,4 +100,14 @@
   city: Longmont
   state: CO
   postal: 80503
+  
+  - userid: zee
+  student: true
+  session: spring2014
+  name: Zee LaFon
+  github: w4zeepi0
+  email: zeelafon@msn.com
+  city: Lafayette
+  state: CO
+  postal:
 
