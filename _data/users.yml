@@ -43,7 +43,7 @@
   city: Greeley
   state: CO
   postal: 80634
-  resume: ..\students\spring2014\jcyoder\resume\ResumeJanetYoderMay142014.docx
+  resume: https://webdevbootcamp.github.io/students/spring2014/jcyoder/resume/ResumeJanetYoderMay142014.docx
   
 - userid: stratcom
   student: true
