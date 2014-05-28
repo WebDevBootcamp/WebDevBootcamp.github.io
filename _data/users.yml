@@ -135,3 +135,14 @@
   state: CO
   postal: 80301
   resume: http://sandramchung.github.io/resume.html
+
+- userid: annemessenger
+  student: true
+  session: spring2014
+  name: Anne Messenger
+  github: annemessenger
+  email: am@annemessenger.com
+  city: Boulder
+  state: CO
+  postal: 80301
+  resume: http://annemessenger.com/portfolio/resume.html
