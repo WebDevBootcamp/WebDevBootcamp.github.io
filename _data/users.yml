@@ -135,3 +135,16 @@
   state: CO
   postal: 80301
   resume: http://sandramchung.github.io/resume.html
+  
+ -userid: jdgreenfield
+  student: true
+  session: spring2014
+  name: Jacob Greenfield
+  github: jdgreenfield
+  linkedin: https://www.linkedin.com/pub/jacob-greenfield/41/7ba/478
+  email: jacob.d.greenfield@gmail.com
+  city: Boulder
+  state: CO
+  postal: 80303
+  website: www.jacobdgreenfield.com
+  
