@@ -110,3 +110,14 @@
   city: Lafayette
   state: CO
 
+- userid: rhimes
+  student: true
+  session: spring2014
+  name: Roberta Himes
+  github: bertaBoulder
+  linkedin: robertahimes
+  email: roberta@coloradogirl.org
+  city: Englewood
+  state: CO
+  postal: 80113
+  
