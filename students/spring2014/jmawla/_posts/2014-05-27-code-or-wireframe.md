@@ -3,7 +3,7 @@ layout: post
 title: Which One First? Coding or Wireframes
 author: Jamal Abdelmawla
 authorLink: /students/spring2014/jmawla
-tags: start
+tags: wireframe
 published: true
 summary: What to start with before creating the web site project
 comments: true
