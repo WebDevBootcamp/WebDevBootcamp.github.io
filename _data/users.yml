@@ -110,3 +110,15 @@
   city: Lafayette
   state: CO
 
+- userid: schung
+  student: true
+  session: spring2014
+  name: Sandra Chung
+  github: sandramchung
+  twitter: sandramchung
+  linkedin: sandramchung
+  email: sandra@sandrachung.com
+  city: Boulder
+  state: CO
+  postal: 80301
+  resume: http://sandramchung.github.io/resume.html
