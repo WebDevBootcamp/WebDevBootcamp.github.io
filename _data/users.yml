@@ -101,7 +101,7 @@
   city: Longmont
   state: CO
   postal: 80503
-  
+
 - userid: w4zeepi0
   student: true
   session: spring2014
@@ -110,6 +110,18 @@
   email: zeelafon@msn.com
   city: Lafayette
   state: CO
+  
+- userid: LauraR6561
+  student: true
+  session: spring2014
+  name: Laura Rutz
+  github: LauraR6561
+  linkedin: laurarutz
+  email: LauraR6561@rocketmail.com
+  city: Denver
+  state: CO
+  postal: 80221
+  resume: http://laurar6561.github.io/resume.html
 
 - userid: schung
   student: true
