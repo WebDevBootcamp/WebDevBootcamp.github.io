@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Janet Yoder
+title: Janet Yoder's Portfolio
 userid: jcyoder
 ---
 
