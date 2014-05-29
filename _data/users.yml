@@ -9,6 +9,19 @@
   state: CO
   postal: 80521
 
+- userid: keiichi
+  student: true
+  name: Keiichi Hiramatsu
+  github: digininjadev
+  linkedin: sam-lindley
+  twitter: 
+  email: keiichi.lindley@gmail.com
+  phone: 415-608-0536
+  city:  Boulder
+  state: CO
+  postal: 80305
+  resume: http://digininjadev.github.io/downloads/Keiichi%20S%20Lindley%20IT%20Resume.pdf
+
 - userid: mdaehnick
   student: true
   session: spring2014
