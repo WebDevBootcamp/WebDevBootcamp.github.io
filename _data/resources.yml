@@ -16,6 +16,10 @@
   links:
     - name: Web Field Manual
       url: http://webfieldmanual.com/
+    - name: Hack Design - Free UI/UX Curriculum
+      url: https://hackdesign.org/lessons
+    - name: 24 Free eBooks on UX
+      url: http://www.usefulusability.com/the-ultimate-list-of-24-free-ebooks-on-ux-and-interface-design/
 - type: CSS
   links:
     - name: MDN - CSS
@@ -24,6 +28,8 @@
       url: http://www.csszengarden.com/
     - name: Boostrap
       url: http://getbootstrap.com/
+    - name: Start Bootstrap - Free Bootstrap Themes and Templates
+      url: http://startbootstrap.com/
 - type: References
   links:
     - name: Web Field Manual
