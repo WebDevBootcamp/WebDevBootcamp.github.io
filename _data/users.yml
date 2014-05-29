@@ -135,3 +135,16 @@
   state: CO
   postal: 80301
   resume: http://sandramchung.github.io/resume.html
+
+- userid: AndyGoldman
+  student: true
+  session: spring2014
+  name: Andy Goldman
+  github: AndyGoldman
+  twitter: Andy_Goldman
+  linkedin: andygoldman
+  email: andy.goldman@hotmail.com
+	phone: 970-472-5482
+  city: Fort Collins
+  state: CO
+  postal: 80525
