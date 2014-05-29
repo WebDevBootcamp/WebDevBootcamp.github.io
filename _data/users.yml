@@ -125,6 +125,17 @@
   postal: 80221
   resume: http://laurar6561.github.io/resume.html
 
+- userid: rhimes
+  student: true
+  session: spring2014
+  name: Roberta Himes
+  github: bertaBoulder
+  linkedin: robertahimes
+  email: roberta@coloradogirl.org
+  city: Englewood
+  state: CO
+  postal: 80113
+  
 - userid: sandramchung
   student: true
   session: spring2014
@@ -135,7 +146,7 @@
   email: sandra@sandrachung.com
   city: Boulder
   state: CO
-  postal: 80301
+  postal: 80304
   resume: http://sandramchung.github.io/resume.html
 
 - userid: AndyGoldman
@@ -190,4 +201,5 @@
   session: spring2014
   name: Troy Sol
   github: TDSolberg
+
 
