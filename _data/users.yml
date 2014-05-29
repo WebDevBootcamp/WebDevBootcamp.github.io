@@ -124,7 +124,7 @@
   postal: 80221
   resume: http://laurar6561.github.io/resume.html
 
-- userid: schung
+- userid: sandramchung
   student: true
   session: spring2014
   name: Sandra Chung
@@ -161,3 +161,31 @@
   state: CO
   postal: 80303
   website: www.jacobdgreenfield.com
+
+- userid: annemessenger
+  student: true
+  session: spring2014
+  name: Anne Messenger
+  github: annemessenger
+  email: am@annemessenger.com
+  city: Boulder
+  state: CO
+  postal: 80301
+  resume: http://annemessenger.com/portfolio/resume.html
+
+- userid: tgrays2001
+  student: true
+  session: spring2014
+  name: Tiffany Grays
+  github: tgrays2001
+  email: tgrays2001@gmail.com
+  city: Aurora
+  state: CO
+  postal: 80013
+
+- userid: TDSolberg
+  student: true
+  session: spring2014
+  name: Troy Sol
+  github: TDSolberg
+
