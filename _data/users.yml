@@ -43,7 +43,8 @@
   city: Greeley
   state: CO
   postal: 80634
-
+  resume: https://webdevbootcamp.github.io/students/spring2014/jcyoder/resume/ResumeJanetYoderMay142014.docx
+  
 - userid: stratcom
   student: true
   session: spring2014
@@ -100,7 +101,7 @@
   city: Longmont
   state: CO
   postal: 80503
-  
+
 - userid: w4zeepi0
   student: true
   session: spring2014
@@ -109,6 +110,18 @@
   email: zeelafon@msn.com
   city: Lafayette
   state: CO
+  
+- userid: LauraR6561
+  student: true
+  session: spring2014
+  name: Laura Rutz
+  github: LauraR6561
+  linkedin: laurarutz
+  email: LauraR6561@rocketmail.com
+  city: Denver
+  state: CO
+  postal: 80221
+  resume: http://laurar6561.github.io/resume.html
 
 - userid: rhimes
   student: true
@@ -121,3 +134,17 @@
   state: CO
   postal: 80113
   
+- userid: schung
+  student: true
+  session: spring2014
+  name: Sandra Chung
+  github: sandramchung
+  twitter: sandramchung
+  linkedin: sandramchung
+  email: sandra@sandrachung.com
+  city: Boulder
+  state: CO
+  postal: 80301
+  resume: http://sandramchung.github.io/resume.html
+
+
