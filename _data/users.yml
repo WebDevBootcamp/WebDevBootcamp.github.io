@@ -145,7 +145,19 @@
   twitter: Andy_Goldman
   linkedin: andygoldman
   email: andy.goldman@hotmail.com
-	phone: 970-472-5482
+  phone: 970-472-5482
   city: Fort Collins
   state: CO
   postal: 80525
+  
+- userid: jdgreenfield
+  student: true
+  session: spring2014
+  name: Jacob Greenfield
+  github: jdgreenfield
+  linkedin: jacob-greenfield
+  email: jacob.d.greenfield@gmail.com
+  city: Boulder
+  state: CO
+  postal: 80303
+  website: www.jacobdgreenfield.com
