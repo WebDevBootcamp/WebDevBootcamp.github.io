@@ -32,6 +32,7 @@
   city: Loveland
   state: CO
   postal: 80537
+  resume: https://www.dropbox.com/s/iwx8m5dn5opw1qv/EMoore%20Resume%20May.pdf
 
 - userid: jcyoder
   student: true
@@ -44,7 +45,7 @@
   state: CO
   postal: 80634
   resume: https://webdevbootcamp.github.io/students/spring2014/jcyoder/resume/ResumeJanetYoderMay142014.docx
-  
+
 - userid: stratcom
   student: true
   session: spring2014
@@ -69,7 +70,7 @@
   city: Fort Collins
   state: CO
   postal: 80525
-  
+
 - userid: jwgilbert
   student: true
   session: spring2014
@@ -110,7 +111,7 @@
   email: zeelafon@msn.com
   city: Lafayette
   state: CO
-  
+
 - userid: LauraR6561
   student: true
   session: spring2014
