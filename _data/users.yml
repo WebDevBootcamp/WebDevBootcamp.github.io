@@ -182,6 +182,7 @@
   city: Aurora
   state: CO
   postal: 80013
+	resume: https://webdevbootcamp.github.io/students/spring2014/tgrays2001/Resume.docx
 
 - userid: TDSolberg
   student: true
