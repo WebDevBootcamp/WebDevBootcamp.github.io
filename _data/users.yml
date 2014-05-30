@@ -13,7 +13,7 @@
   student: true
   name: Keiichi Hiramatsu
   github: digininjadev
-  linkedin: sam-lindley
+  linkedin: https://www.linkedin.com/pub/sam-lindley/18/ab4/9b6
   twitter: 
   email: keiichi.lindley@gmail.com
   phone: 415-608-0536
@@ -27,7 +27,7 @@
   session: spring2014
   name: Mike Daehnick
   github: mdaehnick
-  linkedin: mdaehnick
+  linkedin: www.linkedin.com/in/mdaehnick
   email: mdaehnick@yahoo.com
   phone: 303-666-6468
   city: Erie
@@ -40,7 +40,7 @@
   session: spring2014
   name: Evan Moore
   github: etmoore
-  linkedin: etmoore1
+  linkedin: www.linkedin.com/in/etmoore1
   email: etmoore@gmail.com
   city: Loveland
   state: CO
@@ -52,7 +52,7 @@
   session: spring2014
   name: Janet Yoder
   github: jcyoder
-  linkedin: janetyoder
+  linkedin: www.linkedin.com/in/janetyoder
   email: kajcyoder@comcast.net
   city: Greeley
   state: CO
@@ -64,7 +64,7 @@
   session: spring2014
   name: Mike Stratton
   github: stratcom
-  linkedin: mhstratton
+  linkedin: www.linkedin.com/in/mhstratton
   twitter: mhstratton
   email: mhstratton@gmail.com
   city: Boulder
@@ -77,7 +77,7 @@
   session: spring2014
   name: Rik Johnson
   github: RikJohnson
-  linkedin: rikrjohnson
+  linkedin: www.linkedin.com/in/rikrjohnson
   twitter: RikRJohnson
   email: rikRjohnson@comcast.net
   city: Fort Collins
@@ -89,7 +89,7 @@
   session: spring2014
   name: Jeff Gilbert
   github: jwgilbert
-  linkedin: jeffwgilbert
+  linkedin: www.linkedin.com/in/jeffwgilbert
   email: jwgwebdev@gmail.com
   city: Fort Collins
   state: CO
@@ -111,7 +111,7 @@
   session: spring2014
   name: Jamal Abdelmawla
   github: jmawla
-  linkedin: jamalabdelmawla
+  linkedin: www.linkedin.com/in/jamalabdelmawla
   email: jmawla@yahoo.com
   city: Longmont
   state: CO
@@ -143,7 +143,7 @@
   session: spring2014
   name: Roberta Himes
   github: bertaBoulder
-  linkedin: robertahimes
+  linkedin: www.linkedin.com/in/robertahimes
   email: roberta@coloradogirl.org
   city: Englewood
   state: CO
@@ -155,7 +155,7 @@
   name: Sandra Chung
   github: sandramchung
   twitter: sandramchung
-  linkedin: sandramchung
+  linkedin: www.linkedin.com/in/sandramchung
   email: sandra@sandrachung.com
   city: Boulder
   state: CO
@@ -168,7 +168,7 @@
   name: Andy Goldman
   github: AndyGoldman
   twitter: Andy_Goldman
-  linkedin: andygoldman
+  linkedin: www.linkedin.com/in/andygoldman
   email: andy.goldman@hotmail.com
   phone: 970-472-5482
   city: Fort Collins
@@ -180,7 +180,7 @@
   session: spring2014
   name: Jacob Greenfield
   github: jdgreenfield
-  linkedin: jacob-greenfield
+  linkedin: www.linkedin.com/pub/jacob-greenfield/41/7ba/478
   email: jacob.d.greenfield@gmail.com
   city: Boulder
   state: CO
