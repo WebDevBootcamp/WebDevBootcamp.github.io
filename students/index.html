@@ -28,7 +28,7 @@ title: Students
           <td>{{ user.name }}</td>
           <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
           <td>{% if user.twitter %}<a href="http://twitter.com/{{ user.twitter }}">{{ user.twitter }}{% endif %}</a></td>
-          <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin"></i></a></td>
+          <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}</td>
           <td align="center"><i class="icon fa {% if user.employed %}fa-check{% else %}fa-times{% endif %}" /></td>
           <td align="center">{% if user.resume %}<a href="{{ user.resume }}"><i class="icon fa fa-file-text-o" /></a>{% endif %}</td>
         </tr>
