@@ -1,0 +1,73 @@
+---
+---
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}/public/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="{{ site.url }}/public/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="{{ site.url }}/public/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="{{ site.url }}/public/css/syntax-highlighter.css" rel="stylesheet">
+    
+    <script src="{{ site.url }}/public/js/jquery-1.10.2.js"></script>
+    <script src="{{ site.url }}/public/js/bootstrap.js"></script>
+    <script src="words.js"></script>
+    <script>
+    
+      var words = wordlists.filter(function(word){ 
+        if(word.length > 6 && word.length < 14) return true; 
+        else return false 
+      });
+      
+      $(function(){
+          
+          var moves = $('#moves')
+            , letters_el = $('#letters')
+            , guesses = $('#guesses');
+      
+          $('#new_game').on('click', reset_game)
+      
+      
+          function reset_game(){
+            letters_el.empty();
+            start_game();
+          }
+      
+          function start_game(){
+            var word = words[Math.floor(Math.random() * words.length)];
+            var letters = word.split('');
+
+            letters.forEach(function(letter){
+              $('<b>'+ letter +'</b>').appendTo(letters_el)
+          
+            })
+        
+          }
+        
+      });
+      
+    
+    </script>
+</head>
+<body>
+  
+  <button id="new_game">New Game</button>
+
+  <div id="moves"></div>
+
+  <div id="letters"></div>
+  
+  <div id="guesses"></div>
+
+  
+</body>
+</html>

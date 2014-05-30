@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Janet Yoder's Portfolio
-userid: jcyoder
+title: Zee LaFon
+userid: w4zeepi0
 ---
 
 {% for user in site.data.users %}

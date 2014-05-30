@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, header, section, aside, footer, nav, p {
+	display: block;
+}
+body {
+	width: 100%;
+	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
+	background: url(_includes/background.png) top left;
+}
+
+header {
+	background: #666666;
+	background: linear-gradient(to bottom, #4b4b4b, #3399cc, #4b4b4b);
+    background: -webkit-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+    background: -o-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+    background: -moz-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+	color: white;
+	width: 100%;
+	height:100px;
+}
+
+header h1 {
+	text-align: center;
+	padding-top: 30px;
+}
