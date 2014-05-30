@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, header, section, aside, footer, nav, p, span {
+	display: block;
+}
+
+body {
+	width: 100%;
+	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
+	background: url(images/backgroundgrain.png) top left;
+}
+
+header {
+	background: #666666;
+	background: linear-gradient(to bottom, #4b4b4b, #3399cc, #4b4b4b);
+    background: -webkit-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+    background: -o-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+    background: -moz-linear-gradient(#4b4b4b, #3399cc, #4b4b4b);
+	color: white;
+	width: 100%;
+	height:100px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+/* intro section */
+.intro {
+	width:30%;
+	/*margin: 20px;*/
+	float: left;
+/*	display: inline;*/
+}
+
+.intro h1 {
+	text-align: left;
+	margin-left: 20px;
+}
+
+/* image of janet */
+.intro .janet {
+	width: 160px;
+	display: block;
+	height: auto;
+	margin:20px;
+    border: 5px inset black;
+}
+
+/* span tag with "Janet" in it*/
+.bio {
+    float: left;
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
+}
+
+.intro p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt;
+	margin-left: 20px;
+   
+}
+
+.projects {
+	width:35%;
+	margin: 30px;
+	float: left;
+	display: inline;
+	height: auto;
+	
+}
+
+.projects ul.projlist {
+	width: 100%;
+	margin-left: 30px;
+	
+}
+
+.projects ul.projlist li {
+	font-weight: bold;
+	font-size: 18pt;
+	margin-top: 10px;
+}
+
+.projects ul.projlist li p {
+	font-weight: normal;
+	font-size: 12pt;
+	font-family: Verdana, Geneva, sans-serif;
+	/*margin-bottom: 10px;*/
+}
+
+.listoflinks {
+	list-style-type: none;
+	text-align:right;
+}
+
+.listoflinks li {
+	
+	display: inline
+}
