@@ -61,12 +61,18 @@
       color: #999;
     }
     
+    #letters .letter.missed {
+      background: #c33;
+    }
+    
     
     </style>
 </head>
 <body>
   
   <button id="new_game">New Game</button>
+  <label>Turns</label>
+  <input type="text" id="turns_settings" value="6" size="2">
   <hr>
   <div id="moves">
     <h4>Turns Left</h4>
@@ -76,6 +82,25 @@
 
   <div id="guesses"></div>
 
+  <script>
+    $(function(){
+
+      var game = new Hangman({
+        words: 'enable2k.txt'
+      , min_len: 6
+      , max_len: 14
+      , message: '#moves h4'
+      , turns: '#turns'
+      , turn_count: '#turns_settings'
+      , letters: '#letters'
+      , guesses: '#guesses'
+      });
   
+      $('#new_game').on('click', function(){
+          game.play();
+      })
+  
+    });
+  </script>
 </body>
 </html>
