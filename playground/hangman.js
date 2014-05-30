@@ -4,9 +4,11 @@
   });
    
 $(function(){
+
+  var game = new Hangman();
   
   $('#new_game').on('click', function(){
-    new Hangman();
+      game.play();
   })
   
   
@@ -14,20 +16,21 @@ $(function(){
       
 
 function Hangman(){
-  
-  this.turns = 6;
-  
+
   this.message = $('#moves h4');
   this.turns_el = $('#turns');
   this.letters_el = $('#letters');
   this.guesses = $('#guesses');
   
   this.attach();
-  this.reset();
-  this.generate();
 }
 
 Hangman.prototype = {
+  
+  play: function(){
+    this.reset();
+    this.generate();
+  },
   
   attach: function(){
     var self = this;
@@ -53,6 +56,8 @@ Hangman.prototype = {
     var self = this;
     this.word = words[Math.floor(Math.random() * words.length)];
     
+    this.word = "score";
+    
     var letters = this.word.split('');
     
     this.letters = letters.map(function(letter){
@@ -70,24 +75,33 @@ Hangman.prototype = {
   },
   
   guess: function(letter){
-    this.turns--;
-    if(this.turns <= 0){
-      this.message.html("Game Over");
-      this.turns_el.text("");
+
+    if(this.letters.some(function(l){
+      if(l.letter != letter) return false;
+      l.found();
+      return true
+    })) {
+      if(this.letters.every(function(l){
+        return l.matched
+      })) {
+        this.message.html("You Win");
+        this.turns_el.text("");
+      }
+    } else {
+      this.turns--;
+      if(this.turns <= 0) return this.gameover();
       
-      this.letters.forEach(function(letter){
-        letter.found();
-      })
-      
-      return;
+      this.turns_el.text(this.turns); 
     }
-    this.turns_el.text(this.turns);
+  },
+  
+  gameover: function(){
+    this.message.html("Game Over");
+    this.turns_el.text("");
     
-    this.letters.forEach(function(l){
-      if(l.letter == letter) l.found();
+    this.letters.forEach(function(letter){
+      letter.found();
     })
-    
-    
   }
   
 }
