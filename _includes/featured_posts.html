@@ -3,12 +3,12 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Featured Blog Posts</h2>
-                    <table class="table table-bordered">
+                    <table class="table">
                         <tbody>
                         {% for post in site.posts %}
                         <tr>
                             <td>
-                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                <h3><a href="{{ post.url }}" title="{{ post.summary }}">{{ post.title }}</a></h3>
                                 <i>{{ post.summary }}</i>
 
                                 <p>
