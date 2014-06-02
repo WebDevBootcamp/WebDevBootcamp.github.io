@@ -58,14 +58,6 @@ h1 {
     border: 5px inset black;
 }
 
-/* span tag with "Janet" in it*/
-.bio {
-    float: left;
-	font-size: 20pt;
-	font-weight: bold;
-	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
-}
-
 .intro p {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12pt;
@@ -77,8 +69,8 @@ h1 {
 .projects {
 	width:40%;
     min-width: 415px;
-	margin: 20px 20px 20px 40px;
-	float: left;
+	margin: 20px 50px 20px 40px;
+	float: right;
 	display: inline;
 	height: auto;
 	
@@ -114,4 +106,20 @@ h1 {
 .listoflinks li {
 	
 	display: inline
+}
+
+@media screen and (max-width: 827px) {
+	
+	.projects {
+		margin: 20px 20px 20px 30px;
+		clear: both;
+		float: left;
+		height: auto;
+	}
+	
+	h1 {
+		text-align: left;
+	}
+
+	
 }
