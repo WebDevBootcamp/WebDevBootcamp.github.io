@@ -1,0 +1,8 @@
+#featured-posts > div > div > div > table > tbody > tr > td > h3 > a:hover, 
+#featured-posts > div > div > div > table > tbody > tr > td > p > small > a:hover {
+  color: #7fbbda;
+} 
+
+#featured-posts > div > div > div > table > tbody > tr > td {
+  border-top: 1px solid #7fbbda;
+} 
