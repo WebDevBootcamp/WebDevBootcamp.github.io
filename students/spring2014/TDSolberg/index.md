@@ -11,6 +11,3 @@ userid: TDSolberg
 {% endfor %}
 
 
-### {{ Troy's Birthday Profile }}
-
-#### {{ Milliken }}, {{ Colorado }} {{ 80543 }
