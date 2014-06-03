@@ -16,9 +16,9 @@ ____
 
 Every blog post needs to end up inside of a `_posts` folder with a name that follows the following format:
 
-{% highlight bash %}
-  YYYY-MM-DD-Blog-Post-Title.{extension}
-{% endhighlight %}
+<pre>
+  YYYY-MM-DD-Blog-Post-Title.extension
+</pre>
 
 The extension type determines the parser used to generate the blog post. html, md, markdown or textile are all currently supported. This particular blog post is written in markdown ([see source](https://raw.githubusercontent.com/WebDevBootcamp/WebDevBootcamp.github.io/master/_posts/2014-05-24-Write-a-Post.md)).
 
@@ -39,7 +39,7 @@ It is important when creating your blog post that you specify metadata about you
 
 __Example:__
 
-{% highlight yaml %}
+<pre>
 ---
 layout: post
 title: How-to Write a Post
@@ -52,7 +52,7 @@ image: http://placehold.it/900x300
 comments: true
 userid: nw
 ---
-{% endhighlight %}
+</pre>
 
 
 
