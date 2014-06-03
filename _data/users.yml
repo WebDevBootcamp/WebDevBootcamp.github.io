@@ -9,48 +9,62 @@
   state: CO
   postal: 80521
 
+- userid: keiichi
+  student: true
+  name: Keiichi Hiramatsu
+  github: digininjadev
+  linkedin: https://www.linkedin.com/pub/sam-lindley/18/ab4/9b6
+  twitter: 
+  email: keiichi.lindley@gmail.com
+  phone: 415-608-0536
+  city:  Boulder
+  state: CO
+  postal: 80305
+  resume: http://digininjadev.github.io/downloads/Keiichi%20S%20Lindley%20IT%20Resume.pdf
+
 - userid: mdaehnick
   student: true
   session: spring2014
   name: Mike Daehnick
   github: mdaehnick
-  linkedin: mdaehnick
+  linkedin: www.linkedin.com/in/mdaehnick
   email: mdaehnick@yahoo.com
   phone: 303-666-6468
   city: Erie
   state: CO
   postal: 80516
-  resume: https://asset1.basecamp.com/2565496/projects/5204169/attachments/89210867/DaehnickMichael2014DG.docx
+  resume: https://drive.google.com/file/d/0B37uvu5hMNaqX0RhU1NXNURGbnc/edit?usp=sharing
 
 - userid: etmoore
   student: true
   session: spring2014
   name: Evan Moore
   github: etmoore
-  linkedin: etmoore1
+  linkedin: www.linkedin.com/in/etmoore1
   email: etmoore@gmail.com
   city: Loveland
   state: CO
   postal: 80537
+  resume: https://www.dropbox.com/s/iwx8m5dn5opw1qv/EMoore%20Resume%20May.pdf
 
 - userid: jcyoder
   student: true
   session: spring2014
   name: Janet Yoder
   github: jcyoder
-  linkedin: janetyoder
+  linkedin: www.linkedin.com/in/janetyoder
   email: kajcyoder@comcast.net
   city: Greeley
   state: CO
   postal: 80634
-  resume: https://webdevbootcamp.github.io/students/spring2014/jcyoder/resume/ResumeJanetYoderMay142014.docx
-  
+  resume: https://webdevbootcamp.github.io/students/spring2014/jcyoder/resume/ResumeWebDevJanetYoderJune012014.pdf
+
 - userid: stratcom
   student: true
   session: spring2014
   name: Mike Stratton
   github: stratcom
-  linkedin: mhstratton
+  linkedin: www.linkedin.com/in/mhstratton
   twitter: mhstratton
   email: mhstratton@gmail.com
   city: Boulder
@@ -63,19 +77,19 @@
   session: spring2014
   name: Rik Johnson
   github: RikJohnson
-  linkedin: rikrjohnson
+  linkedin: www.linkedin.com/in/rikrjohnson
   twitter: RikRJohnson
   email: rikRjohnson@comcast.net
   city: Fort Collins
   state: CO
   postal: 80525
-  
+
 - userid: jwgilbert
   student: true
   session: spring2014
   name: Jeff Gilbert
   github: jwgilbert
-  linkedin: jeffwgilbert
+  linkedin: www.linkedin.com/in/jeffwgilbert
   email: jwgwebdev@gmail.com
   city: Fort Collins
   state: CO
@@ -97,10 +111,12 @@
   session: spring2014
   name: Jamal Abdelmawla
   github: jmawla
+  linkedin: www.linkedin.com/in/jamalabdelmawla
   email: jmawla@yahoo.com
   city: Longmont
   state: CO
   postal: 80503
+  resume: https://drive.google.com/file/d/0B2hZoxm5va8ecWtCU2hydlR1akk/edit?usp=sharing
   
 - userid: w4zeepi0
   student: true
@@ -111,15 +127,95 @@
   city: Lafayette
   state: CO
 
-- userid: schung
+- userid: LauraR6561
+  student: true
+  session: spring2014
+  name: Laura Rutz
+  github: LauraR6561
+  linkedin: laurarutz
+  email: LauraR6561@rocketmail.com
+  city: Denver
+  state: CO
+  postal: 80221
+  resume: http://laurar6561.github.io/resume.html
+
+- userid: rhimes
+  student: true
+  session: spring2014
+  name: Roberta Himes
+  github: bertaBoulder
+  linkedin: www.linkedin.com/in/robertahimes
+  email: roberta@coloradogirl.org
+  city: Englewood
+  state: CO
+  postal: 80113
+  
+- userid: sandramchung
   student: true
   session: spring2014
   name: Sandra Chung
   github: sandramchung
   twitter: sandramchung
-  linkedin: sandramchung
+  linkedin: www.linkedin.com/in/sandramchung
   email: sandra@sandrachung.com
   city: Boulder
   state: CO
-  postal: 80301
+  postal: 80304
   resume: http://sandramchung.github.io/resume.html
+
+- userid: AndyGoldman
+  student: true
+  session: spring2014
+  name: Andy Goldman
+  github: AndyGoldman
+  twitter: Andy_Goldman
+  linkedin: www.linkedin.com/in/andygoldman
+  email: andy.goldman@hotmail.com
+  phone: 970-472-5482
+  city: Fort Collins
+  state: CO
+  postal: 80525
+  
+- userid: jdgreenfield
+  student: true
+  session: spring2014
+  name: Jacob Greenfield
+  github: jdgreenfield
+  linkedin: www.linkedin.com/pub/jacob-greenfield/41/7ba/478
+  email: jacob.d.greenfield@gmail.com
+  city: Boulder
+  state: CO
+  postal: 80303
+  resume: https://drive.google.com/file/d/0B-8Eod1zIlxcRks0TGpPTUt1cXc/edit?usp=sharing
+  website: www.jacobdgreenfield.com
+
+- userid: annemessenger
+  student: true
+  session: spring2014
+  name: Anne Messenger
+  github: annemessenger
+  email: am@annemessenger.com
+  city: Boulder
+  state: CO
+  postal: 80301
+  resume: http://annemessenger.com/portfolio/resume.html
+
+- userid: tgrays2001
+  student: true
+  session: spring2014
+  name: Tiffany Grays
+  github: tgrays2001
+  linkedin: tgrays2001
+  email: tgrays2001@gmail.com
+  city: Aurora
+  state: CO
+  postal: 80013
+  resume: https://webdevbootcamp.github.io/students/spring2014/tgrays2001/Resume.docx
+
+- userid: TDSolberg
+  student: true
+  session: spring2014
+  name: Troy Sol
+  github: TDSolberg
+
+
