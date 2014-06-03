@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troy Sol
+title: Troy Solberg
 userid: TDSolberg
 ---
 
@@ -11,6 +11,6 @@ userid: TDSolberg
 {% endfor %}
 
 
-### {{ page.title }}
+### {{ Troy's Birthday Profile }}
 
-#### {{ current.city }}, {{ current.state }} {{ current.postal }}
+#### {{ Milliken }}, {{ Colorado }} {{ 80543 }
