@@ -9,6 +9,7 @@ body, header, section, aside, footer, nav, p, span {
 
 body {
 	width: 100%;
+    min-width: 400px;
 	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
 	background: url(images/backgroundgrain.png) top left;
 }
@@ -25,15 +26,18 @@ header {
 	margin-bottom: 30px;
 }
 
+.title {
+    text-align: center;
+	padding-top: 30px;
+}
+
 h1 {
 	text-align: center;
-	padding-top: 20px;
-	
 }
 
 /* intro section */
 .intro {
-	width:30%;
+	width: 35%;
 	/*margin: 20px;*/
 	float: left;
 /*	display: inline;*/
@@ -41,42 +45,40 @@ h1 {
 
 .intro h1 {
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 30px;
+    min-width: 430px;
 }
 
 /* image of janet */
 .intro .janet {
-	width: 160px;
-	display: block;
+	width: 216px;
+	float: left;
 	height: auto;
-	margin:20px;
+	margin: 20px 20px 15px 30px;
     border: 5px inset black;
-}
-
-/* span tag with "Janet" in it*/
-.bio {
-    float: left;
-	font-size: 20pt;
-	font-weight: bold;
-	font-family: "Adobe Caslon Pro", "Book Antiqua", sans-serif;
 }
 
 .intro p {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12pt;
-	margin-left: 20px;
+	margin-left: 30px;
+    min-width: 430px;
    
 }
 
 .projects {
-	width:35%;
-	margin: 30px;
-	float: left;
+	width:50%;
+    min-width: 300px;
+	margin: 10px 30px 20px 40px;
+	float: right;
 	display: inline;
 	height: auto;
 	
 }
 
+.projects p.projdesc {
+    min-width: 415px;
+}
 .projects ul.projlist {
 	width: 100%;
 	margin-left: 30px;
@@ -93,7 +95,7 @@ h1 {
 	font-weight: normal;
 	font-size: 12pt;
 	font-family: Verdana, Geneva, sans-serif;
-	/*margin-bottom: 10px;*/
+	margin-right: 30px;
 }
 
 .listoflinks {
@@ -104,4 +106,20 @@ h1 {
 .listoflinks li {
 	
 	display: inline
+}
+
+@media screen and (max-width: 1037px) {
+	
+	.projects {
+		margin: 20px 20px 20px 30px;
+		clear: both;
+		float: left;
+		height: auto;
+	}
+	
+	h1 {
+		text-align: left;
+	}
+
+	
 }

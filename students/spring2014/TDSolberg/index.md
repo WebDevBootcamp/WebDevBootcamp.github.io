@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troy Sol
+title: Troy Solberg
 userid: TDSolberg
 ---
 
@@ -11,6 +11,3 @@ userid: TDSolberg
 {% endfor %}
 
 
-### {{ page.title }}
-
-#### {{ current.city }}, {{ current.state }} {{ current.postal }}
