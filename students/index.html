@@ -23,7 +23,7 @@ title: Students
     {% for user in site.data.users %}
       {% if user.student %}
         <tr>
-          <td><a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a></td>
+          <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
           <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
           <td>{{ user.name }}</td>
           <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
