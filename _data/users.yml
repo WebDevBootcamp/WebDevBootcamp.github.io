@@ -131,11 +131,12 @@
   state: CO
 
 - userid: LauraR6561
+  website: http://laurar6561.github.io
   student: true
   session: spring2014
   name: Laura Rutz
   github: LauraR6561
-  linkedin: laurarutz
+  linkedin: https://www.linkedin.com/in/laurarutz
   email: LauraR6561@rocketmail.com
   city: Denver
   state: CO
