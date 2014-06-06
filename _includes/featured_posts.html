@@ -1,14 +1,14 @@
-    <div class="call-to-action">
+    <div id="featured-posts" class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Featured Blog Posts</h2>
-                    <table class="table table-bordered">
+                    <table class="table">
                         <tbody>
                         {% for post in site.posts %}
                         <tr>
                             <td>
-                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                <h3><a href="{{ post.url }}" title="{{ post.summary }}">{{ post.title }}</a></h3>
                                 <i>{{ post.summary }}</i>
 
                                 <p>
@@ -18,7 +18,7 @@
                                         <a href="/tags/#{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
                                         {% if forloop.last != true %}
                                         {% endif %}
-                                        {% endfor %} .
+                                        {% endfor %}
                                     </small>
                                 </p>
                             </td>

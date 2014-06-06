@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Janet Yoder's Portfolio
-userid: jcyoder
+title: Troy Solberg
+userid: TDSolberg
 ---
 
 {% for user in site.data.users %}
@@ -11,6 +11,3 @@ userid: jcyoder
 {% endfor %}
 
 
-### {{ page.title }}
-
-#### {{ current.city }}, {{ current.state }} {{ current.postal }}
