@@ -14,7 +14,7 @@
   name: Keiichi Hiramatsu
   github: digininjadev
   linkedin: https://www.linkedin.com/pub/sam-lindley/18/ab4/9b6
-  twitter: 
+  twitter:
   email: keiichi.lindley@gmail.com
   phone: 415-608-0536
   city:  Boulder
@@ -37,6 +37,7 @@
   resume: https://drive.google.com/file/d/0B37uvu5hMNaqX0RhU1NXNURGbnc/edit?usp=sharing
 
 - userid: etmoore
+  website: http://etmoore.io
   student: true
   session: spring2014
   name: Evan Moore
@@ -120,7 +121,7 @@
   state: CO
   postal: 80503
   resume: https://drive.google.com/file/d/0B2hZoxm5va8ecWtCU2hydlR1akk/edit?usp=sharing
-  
+
 - userid: w4zeepi0
   student: true
   session: spring2014
@@ -154,7 +155,7 @@
   postal: 80113
   website: http://bertaBoulder.github.io/index.html
   resume: http://bertaBoulder.github.io/resume.html
-  
+
 - userid: sandramchung
   student: true
   session: spring2014
@@ -181,7 +182,7 @@
   city: Fort Collins
   state: CO
   postal: 80525
-  
+
 - userid: jdgreenfield
   student: true
   session: spring2014
