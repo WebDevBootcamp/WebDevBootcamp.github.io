@@ -9,6 +9,19 @@
   state: CO
   postal: 80521
 
+  - userid: etmoore
+    website: http://etmoore.io
+    student: true
+    session: spring2014
+    name: Evan Moore
+    github: etmoore
+    linkedin: www.linkedin.com/in/etmoore1
+    email: etmoore@gmail.com
+    city: Loveland
+    state: CO
+    postal: 80537
+    resume: https://www.dropbox.com/s/iro5rp617era2fk/EMoore%20Resume%20June.pdf
+
 - userid: keiichi
   student: true
   name: Keiichi Hiramatsu
@@ -35,19 +48,6 @@
   state: CO
   postal: 80516
   resume: https://drive.google.com/file/d/0B37uvu5hMNaqX0RhU1NXNURGbnc/edit?usp=sharing
-
-- userid: etmoore
-  website: http://etmoore.io
-  student: true
-  session: spring2014
-  name: Evan Moore
-  github: etmoore
-  linkedin: www.linkedin.com/in/etmoore1
-  email: etmoore@gmail.com
-  city: Loveland
-  state: CO
-  postal: 80537
-  resume: https://www.dropbox.com/s/iwx8m5dn5opw1qv/EMoore%20Resume%20May.pdf
 
 - userid: jcyoder
   student: true
