@@ -9,18 +9,18 @@
   state: CO
   postal: 80521
 
-  - userid: etmoore
-    website: http://etmoore.io
-    student: true
-    session: spring2014
-    name: Evan Moore
-    github: etmoore
-    linkedin: www.linkedin.com/in/etmoore1
-    email: etmoore@gmail.com
-    city: Loveland
-    state: CO
-    postal: 80537
-    resume: https://www.dropbox.com/s/iro5rp617era2fk/EMoore%20Resume%20June.pdf
+- userid: etmoore
+  website: http://etmoore.io
+  student: true
+  session: spring2014
+  name: Evan Moore
+  github: etmoore
+  linkedin: www.linkedin.com/in/etmoore1
+  email: etmoore@gmail.com
+  city: Loveland
+  state: CO
+  postal: 80537
+  resume: https://www.dropbox.com/s/iro5rp617era2fk/EMoore%20Resume%20June.pdf
 
 - userid: keiichi
   student: true
