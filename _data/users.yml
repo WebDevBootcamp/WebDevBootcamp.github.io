@@ -9,25 +9,11 @@
   state: CO
   postal: 80521
 
-- userid: etmoore
-  website: http://etmoore.io
-  student: true
-  session: spring2014
-  name: Evan Moore
-  github: etmoore
-  linkedin: www.linkedin.com/in/etmoore1
-  email: etmoore@gmail.com
-  city: Loveland
-  state: CO
-  postal: 80537
-  resume: https://www.dropbox.com/s/iro5rp617era2fk/EMoore%20Resume%20June.pdf
-
 - userid: c43
   student: true
   session: summer2014
   name: Cameron Donahue
   github: c43
-  twitter: #
   linkedin: https://www.linkedin.com/in/camerondonahue
   email: camerondonahue@gmail.com
   website: http://www.c43@github.io
@@ -35,6 +21,19 @@
   city: Boulder
   state: CO
   postal: 80301
+  
+- userid: etmoore
+  website: http://etmoore.io
+  student: true
+  session: spring2014
+  name: Evan Moore
+  github: etmoore
+  linkedin: https://www.linkedin.com/in/etmoore1
+  email: etmoore@gmail.com
+  city: Loveland
+  state: CO
+  postal: 80537
+  resume: https://www.dropbox.com/s/iwx8m5dn5opw1qv/EMoore%20Resume%20May.pdf
 
 - userid: keiichi
   student: true
@@ -64,21 +63,6 @@
   postal: 80516
   resume: https://drive.google.com/file/d/0B37uvu5hMNaqX0RhU1NXNURGbnc/edit?usp=sharing
 
-<<<<<<< HEAD
-=======
-- userid: etmoore
-  student: true
-  session: spring2014
-  name: Evan Moore
-  github: etmoore
-  linkedin: https://www.linkedin.com/in/etmoore1
-  email: etmoore@gmail.com
-  city: Loveland
-  state: CO
-  postal: 80537
-  resume: https://www.dropbox.com/s/iwx8m5dn5opw1qv/EMoore%20Resume%20May.pdf
-
->>>>>>> 05faf27cc6b7e34a494e8cd1ec40ebc609b9aa6d
 - userid: jcyoder
   student: true
   session: spring2014

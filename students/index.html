@@ -21,7 +21,7 @@ title: Students
     </thead>
     <tbody>
     {% for user in site.data.users %}
-    {% if user.session = "summer2014" %}
+    {% if user.student and user.session == 'summer2014' %}
     <tr>
         <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
         <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
@@ -56,7 +56,7 @@ title: Students
   </thead>
   <tbody>
     {% for user in site.data.users %}
-      {% if user.session = "spring2014" %}
+      {% if user.student and user.session == 'spring2014'  %}
         <tr>
           <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
           <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
