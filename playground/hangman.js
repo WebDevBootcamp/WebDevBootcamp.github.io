@@ -1,5 +1,3 @@
-    
-// TODO: add docs
 
 function Hangman(options){
   
