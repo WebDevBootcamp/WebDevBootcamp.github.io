@@ -4,7 +4,42 @@ title: Students
 ---
 
 
-<h4> Students </h4>
+<h4> Summer 2014 Students </h4>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+        <th>Page</th>
+        <th>Posts</th>
+        <th>Name</th>
+        <th>Github</th>
+        <th>Twitter</th>
+        <th>Linkedin</th>
+        <th>Employed</th>
+        <th>Resume</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for user in site.data.users %}
+    {% if user.session = "summer2014" %}
+    <tr>
+        <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
+        <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
+        <td>{{ user.name }}</td>
+        <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
+        <td>{% if user.twitter %}<a href="http://twitter.com/{{ user.twitter }}">{{ user.twitter }}{% endif %}</a></td>
+        <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}</td>
+        <td align="center"><i class="icon fa {% if user.employed %}fa-check{% else %}fa-times{% endif %}" /></td>
+        <td align="center">{% if user.resume %}<a href="{{ user.resume }}"><i class="icon fa fa-file-text-o" /></a>{% endif %}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+
+<br><br>
+
+<h4> Spring 2014 Students </h4>
 
 <table class="table table-bordered table-striped table-hover">
   <thead>
@@ -21,7 +56,7 @@ title: Students
   </thead>
   <tbody>
     {% for user in site.data.users %}
-      {% if user.student %}
+      {% if user.session = "spring2014" %}
         <tr>
           <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
           <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
