@@ -21,7 +21,7 @@
   city: Boulder
   state: CO
   postal: 80301
-  
+
 - userid: etmoore
   website: http://etmoore.io
   student: true
@@ -123,6 +123,7 @@
   city: Fort Collins
   state: CO
   postal: 80524
+  employed: true
 
 - userid: jmawla
   student: true
@@ -221,6 +222,7 @@
   state: CO
   postal: 80301
   resume: http://annemessenger.com/portfolio/resume.html
+  employed: true
 
 - userid: tgrays2001
   student: true
