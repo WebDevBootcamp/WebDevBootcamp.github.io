@@ -8,6 +8,19 @@
   city: Fort Collins
   state: CO
   postal: 80521
+  
+  - userid: kristing40
+  student: true
+  session: summer2014
+  name: Kristi N. Green
+  github: kristing40
+  linkedin: www.linkedin.com/in/kristingreenwebdev/
+  email: kngreen40@gmail.com
+  website: 
+  phone: 970-226-0255
+  city: Fort Collins
+  state: CO
+  postal: 80525
 
 - userid: c43
   student: true
