@@ -1,3 +1,18 @@
+- userid: dlwebb
+  website: http://davewebbonline.com
+  student: true
+  session: summer2014
+  name: Dave Webb
+  github: dlwebb
+  linkedin: www.linkedin.com/in/dlwebb
+  twitter: DaveWebb
+  email: davewebb5280@gmail.com
+  phone: 303-324-3233
+  city: Denver
+  state: CO
+  postal: 80210
+  resume: https://drive.google.com/file/d/0B6iM_B-hAQHSLU5VaDFrcHJaVjg/edit?usp=sharing
+
 - userid: nw
   instructor: true
   name: Nathan White
