@@ -188,7 +188,7 @@ i.service-icon {
 /* Callout */
 
 .callout {
-  color: #ffffff;
+  color: #271F33;
   display: table;
   height: 400px;
   width: 100%;
@@ -197,6 +197,8 @@ i.service-icon {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(255, 48, 84)), to(rgb(47, 155, 234))), url(../img/callout.jpg);
+  background-blend-mode: overlay;
 }
 
 /* Portfolio */
