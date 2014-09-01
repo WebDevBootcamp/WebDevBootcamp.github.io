@@ -188,7 +188,8 @@ i.service-icon {
 /* Callout */
 
 .callout {
-  color: #271F33;
+  color: #1D1726;
+  text-shadow: 0 0 10px white;
   display: table;
   height: 400px;
   width: 100%;
