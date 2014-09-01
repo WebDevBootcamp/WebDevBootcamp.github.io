@@ -4,4 +4,4 @@ textile_ext:   textile
 
 permalink: /blog/:categories/:title
 
-site: http://c43.github.io/WebDevBootcamp.github.io
+url: http://c43.github.io/WebDevBootcamp.github.io
