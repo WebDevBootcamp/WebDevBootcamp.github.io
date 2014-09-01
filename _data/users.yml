@@ -11,7 +11,7 @@
   city: Lafayette
   state: CO
   postal: 80026
-  resume: coming soon...
+  resume: ""
 
 - userid: dlwebb
   website: http://davewebbonline.com
@@ -59,11 +59,12 @@
   github: c43
   linkedin: https://www.linkedin.com/in/camerondonahue
   email: camerondonahue@gmail.com
-  website: http://www.c43@github.io
+  website: 
+  employed:
   phone: 720-987-4989
-  city: Boulder
+  city: Fort Collins
   state: CO
-  postal: 80301
+  postal: 80524
 
 - userid: etmoore
   website: http://etmoore.io
