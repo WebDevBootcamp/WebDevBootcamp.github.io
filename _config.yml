@@ -3,3 +3,5 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile
 
 permalink: /blog/:categories/:title
+
+site: http://c43.github.io/WebDevBootcamp.github.io
