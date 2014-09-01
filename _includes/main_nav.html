@@ -1,7 +1,25 @@
     <div id="services" class="services {% if include.extended %}extended{% endif %}">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-md-offset-2 text-center">
+                <div class="col-md-2 col-md-offset-2 col-xs-5 col-xs-offset-1 text-center">
+                    <div class="service-item">
+                        <a href="/students"><i class="service-icon fa fa-users"></i></a>
+                        <h4>The Students</h4>
+                        {% if include.extended %}
+                        <p>Graduates and future developers</p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-5 text-center">
+                    <div class="service-item">
+                        <a href="/resources"><i class="service-icon fa fa-cutlery"></i></a>
+                        <h4>Web Resources</h4>
+                        {% if include.extended %}
+                        <p>Free tutorials and tools </p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-0 col-xs-5 col-xs-offset-1 text-center">
                     <div class="service-item">
                         <a href="/"><i class="service-icon fa fa-rocket"></i></a>
                         <h4>Latest</h4>
@@ -10,24 +28,16 @@
                         {% endif %}
                     </div>
                 </div>
-                <div class="col-md-2 text-center">
+                <div class="col-md-2 col-xs-5 text-center">
                     <div class="service-item">
-                        <a href="/course"><i class="service-icon fa fa-pencil"></i></a>
+                        <a href="/course"><i class="service-icon fa fa-list"></i></a>
                         <h4>Course Curriculum</h4>
                         {% if include.extended %}
                         <p>What the course covers</p>
                         {% endif %}
                     </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <a href="/resources"><i class="service-icon fa fa-paperclip"></i></a>
-                        <h4>Web Resources</h4>
-                        {% if include.extended %}
-                        <p>Free tutorials and tools </p>
-                        {% endif %}
-                    </div>
-                </div>
+                
                 <!--
                 <div class="col-md-2 text-center">
                     <div class="service-item">
@@ -37,15 +47,6 @@
                     </div>
                 </div>
                 -->
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <a href="/students"><i class="service-icon fa fa-users"></i></a>
-                        <h4>The Students</h4>
-                        {% if include.extended %}
-                        <p>We're learning</p>
-                        {% endif %}
-                    </div>
-                </div>
             </div>
         </div>
     </div>
