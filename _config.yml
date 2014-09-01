@@ -4,4 +4,10 @@ textile_ext:   textile
 
 permalink: /blog/:categories/:title
 
-url: http://c43.github.io/WebDevBootcamp.github.io
+# this value ('url: ...') is referenced as 'site.url' throughout the site.
+# after you've forked WebDebBootcamp/WebDevBootcamp.github.io , create a branch called gh-pages
+# then uncomment the below value and replace 'USERNAME' with your github username.
+# this allows you to view and debug your working copy of the site
+# !!! make sure you comment it back out before you send NW your pull request !!!
+
+# url: http://USERNAME.github.io/WebDevBootcamp.github.io
