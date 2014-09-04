@@ -1,3 +1,17 @@
+- userid: esm1503
+  student: true
+  session: summer2014
+  name: Emily Miller
+  github: esm1503
+  linkedin:
+  twitter:
+  email:
+  phone: 970-402-3629
+  city: Fort Collins
+  state: CO
+  postal: 80524
+
+
 - userid: steveperrito
   website: http://www.OptAllure.com
   student: true
