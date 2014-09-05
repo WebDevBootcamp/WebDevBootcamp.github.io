@@ -1,3 +1,17 @@
+- userid: rwestweb
+  website: http://www.rebeccawest.net/
+  student: true
+  session: summer2014
+  name: Rebecca West
+  github: rwestweb
+  linkedin: https://www.linkedin.com/pub/rebecca-west/40/239/330
+  email: rebecca@rebeccawest.net
+  phone: 303-378-9806
+  city: Greeley
+  state: CO
+  postal: 80633
+  resume: http://www.rebeccawest.net/wp-content/uploads/2014/09/RWest_onlineResume.docx
+
 - userid: esm1503
   student: true
   session: summer2014
