@@ -3,13 +3,29 @@
   session: summer2014
   name: Emily Miller
   github: esm1503
-  linkedin:
+  linkedin: www.linkedin.com/pub/emily-miller/65/16a/720
   twitter:
-  email:
+  email: esm.dsgn@gmail.com
   phone: 970-402-3629
   city: Fort Collins
   state: CO
   postal: 80524
+  resume:
+
+
+- userid: Angelique-G
+  student: true
+  session: summer2014
+  name: Angelique Godinez
+  github: Angelique-G
+  linkedin: www.linkedin.com/in/agodinez/
+  twitter:
+  email: a.n.godinez.co@gmail.com
+  phone: 503-740-3507
+  city: Fort Collins
+  state: CO
+  postal: 80521
+  resume:
 
 
 - userid: steveperrito
