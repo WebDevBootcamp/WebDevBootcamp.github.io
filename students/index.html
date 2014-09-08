@@ -3,45 +3,48 @@ layout: full
 title: Students
 ---
 
+<ul class="nav nav-tabs">
 
-<h4> Summer 2014 Students </h4>
+<li class="active"><a href="#summer2014" role="tab" data-toggle="tab"> Summer 2014 <i class="fa fa-cogs"></i></a></li>
+<li><a href="#spring2014" role="tab" data-toggle="tab"> Spring 2014 <i class="fa fa-graduation-cap"></i></a></li>
 
-<table class="table table-bordered table-striped table-hover">
+
+<div class="tab-content">
+  
+  <div class="tab-pane active" id="summer2014">
+      <table class="table table-bordered table-striped table-hover">
     <thead>
     <tr>
-        <th>Page</th>
-        <th>Posts</th>
         <th>Name</th>
+        <th align="center">Website</th>        
         <th>Github</th>
         <th>Twitter</th>
-        <th>Linkedin</th>
-        <th>Employed</th>
-        <th>Resume</th>
+        <th align="center">Linkedin</th>
+        <th align="center">Employed</th>
+        <th align="center">Resume</th>
     </tr>
     </thead>
     <tbody>
     {% for user in site.data.users %}
     {% if user.student and user.session == 'summer2014' %}
     <tr>
-        <td>{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
-        <td><a href="{{ site.url }}/categories/#{{ user.userid }}"><i class="icon fa fa-bullhorn" /></a></td>
         <td>{{ user.name }}</td>
+        <td align="center">{% if user.website %}<a href="{{ user.website }}"><i class="icon fa fa-file" /></a>{% else %}<a href="{{ site.url }}/students/{{ user.session}}/{{ user.userid }}"><i class="icon fa fa-file" /></a>{% endif %}</td>
         <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
         <td>{% if user.twitter %}<a href="http://twitter.com/{{ user.twitter }}">{{ user.twitter }}{% endif %}</a></td>
-        <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}</td>
-        <td align="center"><i class="icon fa {% if user.employed %}fa-check{% else %}fa-times{% endif %}" /></td>
+        <td align="center">{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}</td>
+        <td align="center"><i class="icon fa {% if user.employed %}fa-check{% endif %}" /></td>
         <td align="center">{% if user.resume %}<a href="{{ user.resume }}"><i class="icon fa fa-file-text-o" /></a>{% endif %}</td>
     </tr>
     {% endif %}
     {% endfor %}
     </tbody>
 </table>
+  </div>
+  
 
-<br><br>
-
-<h4> Spring 2014 Students </h4>
-
-<table class="table table-bordered table-striped table-hover">
+  <div class="tab-pane" id="spring2014">
+  <table class="table table-bordered table-striped table-hover">
   <thead>
     <tr>
       <th>Page</th>
@@ -63,7 +66,7 @@ title: Students
           <td>{{ user.name }}</td>
           <td>{% if user.github %}<a href="https://github.com/{{ user.github }}">{{ user.github }}{% endif %}</a></td>
           <td>{% if user.twitter %}<a href="http://twitter.com/{{ user.twitter }}">{{ user.twitter }}{% endif %}</a></td>
-          <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}</td>
+          <td>{% if user.linkedin %}<a href="{{ user.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}</td>
           <td align="center"><i class="icon fa {% if user.employed %}fa-check{% else %}fa-times{% endif %}" /></td>
           <td align="center">{% if user.resume %}<a href="{{ user.resume }}"><i class="icon fa fa-file-text-o" /></a>{% endif %}</td>
         </tr>
@@ -71,3 +74,6 @@ title: Students
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+</div>
