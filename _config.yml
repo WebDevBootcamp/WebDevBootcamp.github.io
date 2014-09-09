@@ -10,4 +10,4 @@ permalink: /blog/:categories/:title
 # this allows you to view and debug your working copy of the site
 # !!! make sure you comment it back out before you send NW your pull request !!!
 
-# url: http://USERNAME.github.io/WebDevBootcamp.github.io
+url: http://saffirefox.github.io/WebDevBootcamp.github.io
