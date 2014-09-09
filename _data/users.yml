@@ -27,6 +27,21 @@
   postal: 80521
   resume:
 
+- userid: EBHeadrick
+  website: EBHeadrick.github.io
+  student: true
+  session: summer2014
+  name: Ellen B Headrick
+  github: EBHeadrick
+  linkedin: https://www.linkedin.com/in/EBHeadrick
+  twitter: EBHeadrick
+  email: EBHeadrick@hotmail.com
+  phone: 303.579.9870
+  city: Boulder
+  state: CO
+  postal: 80304-1613
+  resume:
+  employed: false
 
 - userid: steveperrito
   website: http://www.OptAllure.com
