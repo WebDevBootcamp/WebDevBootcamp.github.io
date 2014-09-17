@@ -1,3 +1,17 @@
+- userid: slitsch
+  student: true
+  session: summer2014
+  name: Sam Litschert
+  github: slitsch
+  linkedin: http://www.linkedin.com/in/samlitschert/
+  twitter: 
+  email: samlitsch@gmail.com
+  phone: 530-925-9837
+  city: Fort COllins
+  state: CO
+  postal: 80521
+  resume: https://dl.dropboxusercontent.com/u/2087103/Litschert_Resume_2014Sept.pdf
+
 - userid: saffirefox
   website: http://www.SaffireFox.com
   student: true
