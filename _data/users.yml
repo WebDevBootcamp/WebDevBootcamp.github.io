@@ -1,10 +1,11 @@
+
 - userid: slitsch
   student: true
   session: summer2014
   name: Sam Litschert
   github: slitsch
   linkedin: http://www.linkedin.com/in/samlitschert/
-  twitter: 
+  twitter:
   email: samlitsch@gmail.com
   phone: 530-925-9837
   city: Fort COllins
@@ -25,6 +26,20 @@
   city: Loveland
   state: CO
   postal: 80538
+
+- userid: rwestweb
+  website: http://www.rebeccawest.net/
+  student: true
+  session: summer2014
+  name: Rebecca West
+  github: rwestweb
+  linkedin: https://www.linkedin.com/pub/rebecca-west/40/239/330
+  email: rebecca@rebeccawest.net
+  phone: 303-378-9806
+  city: Greeley
+  state: CO
+  postal: 80633
+  resume: http://www.rebeccawest.net/wp-content/uploads/2014/09/RWest_onlineResume.docx
 
 - userid: esm1503
   student: true
@@ -132,7 +147,7 @@
   github: c43
   linkedin: https://www.linkedin.com/in/camerondonahue
   email: camerondonahue@gmail.com
-  website: 
+  website:
   employed:
   phone: 720-987-4989
   city: Fort Collins
@@ -359,7 +374,3 @@
   session: spring2014
   name: Troy Sol
   github: TDSolberg
-
-
-
-
