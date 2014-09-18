@@ -42,6 +42,8 @@
   links:
     - name: Modernizr
       url: http://modernizr.com/
+    - name: Moment.js
+      url: http://momentjs.com/
 - type: Mobile
   links:
     - name: iOS Resolution Quick Reference
