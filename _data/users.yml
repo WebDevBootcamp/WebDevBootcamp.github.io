@@ -86,6 +86,21 @@
   resume:
   employed: false
 
+- userid: raptarrin
+  website: http://www.lilyRibeiro.com
+  student: true
+  session: summer2014
+  name: Lily Ribeiro
+  github: raptarrin
+  linkedin: www.linkedin.com/pub/lily-ribeiro/b/92a/597/
+  twitter: 505stop
+  email: lily.stobie@gmail.com
+  phone: 505-918-0233
+  city: Longmont
+  state: CO
+  postal: 80504
+  resume: coming soon
+
 - userid: steveperrito
   website: http://www.OptAllure.com
   student: true
