@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 userid: mywoolf
 student: true
 session: summer2014
@@ -12,6 +13,8 @@ city: Louisville
 state: CO
 postal: 80027
 resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3EtnYxmk/pub
+=======
+>>>>>>> fa88cba3eb7a96c046a11df572b2b481eb8bb735
 
 - userid: slitsch
   student: true
@@ -19,13 +22,14 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   name: Sam Litschert
   github: slitsch
   linkedin: http://www.linkedin.com/in/samlitschert/
-  twitter: 
+  twitter:
   email: samlitsch@gmail.com
   phone: 530-925-9837
   city: Fort COllins
   state: CO
   postal: 80521
   resume: https://dl.dropboxusercontent.com/u/2087103/Litschert_Resume_2014Sept.pdf
+  employed: true
 
 - userid: saffirefox
   website: http://www.SaffireFox.com
@@ -40,20 +44,36 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   city: Loveland
   state: CO
   postal: 80538
+  resume: https://www.dropbox.com/s/l2xye5oq2jv0b6n/resume.pdf?dl=0
+
+- userid: rwestweb
+  website: http://www.rebeccawest.net/
+  student: true
+  session: summer2014
+  name: Rebecca West
+  github: rwestweb
+  linkedin: https://www.linkedin.com/pub/rebecca-west/40/239/330
+  email: rebecca@rebeccawest.net
+  phone: 303-378-9806
+  city: Greeley
+  state: CO
+  postal: 80633
+  resume: http://www.rebeccawest.net/wp-content/uploads/2014/09/RWest_onlineResume.docx
 
 - userid: esm1503
+  website: http://esm1503.github.io/
   student: true
   session: summer2014
   name: Emily Miller
   github: esm1503
-  linkedin: http://www.linkedin.com/pub/emily-miller/65/16a/720
+  linkedin: http://www.linkedin.com/in/esmdsgn
   twitter:
   email: esm.dsgn@gmail.com
   phone: 970-402-3629
   city: Fort Collins
   state: CO
   postal: 80524
-  resume:
+  resume: https://drive.google.com/file/d/0Bx-RexW9Tok5NC1rZ0g0azdsMUk/edit?usp=sharing
 
 
 - userid: Angelique-G
@@ -86,6 +106,21 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   resume:
   employed: false
 
+- userid: raptarrin
+  website: http://www.lilyRibeiro.com
+  student: true
+  session: summer2014
+  name: Lily Ribeiro
+  github: raptarrin
+  linkedin: http://www.linkedin.com/pub/lily-ribeiro/b/92a/597
+  twitter: 505stop
+  email: lily.stobie@gmail.com
+  phone: 505-918-0233
+  city: Longmont
+  state: CO
+  postal: 80504
+  resume:
+
 - userid: steveperrito
   website: http://www.OptAllure.com
   student: true
@@ -99,7 +134,7 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   city: Lafayette
   state: CO
   postal: 80026
-  resume: ""
+  resume: http://steveperrito.github.io
 
 - userid: dlwebb
   website: http://davewebbonline.com
@@ -147,7 +182,7 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   github: c43
   linkedin: https://www.linkedin.com/in/camerondonahue
   email: camerondonahue@gmail.com
-  website: 
+  website:
   employed:
   phone: 720-987-4989
   city: Fort Collins
@@ -374,7 +409,3 @@ resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3
   session: spring2014
   name: Troy Sol
   github: TDSolberg
-
-
-
-
