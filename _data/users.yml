@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 userid: mywoolf
 student: true
 session: summer2014
@@ -13,8 +12,6 @@ city: Broomfield
 state: CO
 postal: 80027
 resume: https://docs.google.com/document/d/1YZtOFOGFqqgSB136jwOJ5K1MJ2C4vf2GdMP3EtnYxmk/pub
-=======
->>>>>>> fa88cba3eb7a96c046a11df572b2b481eb8bb735
 
 - userid: slitsch
   student: true
