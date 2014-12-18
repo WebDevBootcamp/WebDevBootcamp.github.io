@@ -1,3 +1,14 @@
+- userid: KrConrad
+  student: false
+  session: fall2014
+  name: Krizia Conrad
+  employed: false
+  github: KrConrad
+  email: kriziaconrad@gmail.com
+  city: Louisville
+  state: CO
+  postal: 80027
+
 - userid: mywoolf
   website: http://www.mwoolf-webdev.com
   student: true
